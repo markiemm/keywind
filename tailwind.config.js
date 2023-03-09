@@ -3,9 +3,6 @@
  */
 module.exports = {
   content: ['./theme/**/*.ftl'],
-  experimental: {
-    optimizeUniversalDefaults: true,
-  },
   plugins: [require("daisyui")],
   theme: {},
   daisyui: {
