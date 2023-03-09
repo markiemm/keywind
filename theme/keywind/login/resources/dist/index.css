@@ -1097,12 +1097,12 @@ html {
   min-height: 100vh;
 }
 
-.w-4 {
-  width: 1rem;
+.w-36 {
+  width: 9rem;
 }
 
-.w-44 {
-  width: 11rem;
+.w-4 {
+  width: 1rem;
 }
 
 .w-5 {
@@ -1204,10 +1204,6 @@ html {
   border-radius: 0.25rem;
 }
 
-.rounded-full {
-  border-radius: 9999px;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -1218,11 +1214,6 @@ html {
 
 .border-gray-700\/50 {
   border-color: rgb(55 65 81 / 0.5);
-}
-
-.bg-base-300 {
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--b3, var(--b2)) / var(--tw-bg-opacity));
 }
 
 .bg-blue-100 {
