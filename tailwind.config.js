@@ -14,6 +14,7 @@ module.exports = {
       colors: {
         primary: colors.blue,
         secondary: colors.gray,
+        link: colors.red,
 
         provider: {
           bitbucket: '#0052CC',
