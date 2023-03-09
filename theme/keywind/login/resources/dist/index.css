@@ -738,8 +738,8 @@ select {
   min-height: 100vh;
 }
 
-.w-32 {
-  width: 8rem;
+.w-24 {
+  width: 6rem;
 }
 
 .w-4 {
@@ -1028,9 +1028,9 @@ select {
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
-.text-secondary-700 {
+.text-secondary-900 {
   --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
+  color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
 .text-white {
