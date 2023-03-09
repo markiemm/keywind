@@ -19,7 +19,7 @@
       <#if required>required</#if>
 
       aria-invalid="${invalid?c}"
-      class="block text-secondary-900 bg-secondary-900 border-secondary-200 mt-1 rounded-md w-full focus:border-primary-300 focus:ring focus:ring-primary-200 focus:ring-opacity-50 sm:text-sm"
+      class="input input-bordered w-full"
       id="${name}"
       name="${name}"
       placeholder="${label}"

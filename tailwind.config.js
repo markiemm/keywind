@@ -1,5 +1,3 @@
-const colors = require('tailwindcss/colors');
-
 /**
  * @type { import('tailwindcss').Config }
  */
@@ -8,31 +6,33 @@ module.exports = {
   experimental: {
     optimizeUniversalDefaults: true,
   },
-  plugins: [require('@tailwindcss/forms')],
-  theme: {
-    extend: {
-      colors: {
-        primary: colors.blue,
-        secondary: colors.gray,
-        link: colors.red,
-
-        provider: {
-          bitbucket: '#0052CC',
-          facebook: '#1877F2',
-          github: '#181717',
-          gitlab: '#FC6D26',
-          google: '#4285F4',
-          instagram: '#E4405F',
-          linkedin: '#0A66C2',
-          microsoft: '#5E5E5E',
-          oidc: '#F78C40',
-          openshift: '#EE0000',
-          paypal: '#00457C',
-          slack: '#4A154B',
-          stackoverflow: '#F58025',
-          twitter: '#1DA1F2',
+  plugins: [require("daisyui")],
+  theme: {},
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+        
+          "primary": "#d5152f",
+                  
+          "secondary": "#e5a0c0",
+                  
+          "accent": "#d9dd4d",
+                  
+          "neutral": "#6b7280",
+                  
+          // "base-100": "#1f2937",
+          "base-100": "#212121",
+                  
+          "info": "#A5BDE9",
+                  
+          "success": "#14A352",
+                  
+          "warning": "#FCA22C",
+                  
+          "error": "#FA5C7E",
         },
       },
-    },
+    ],
   },
 };
