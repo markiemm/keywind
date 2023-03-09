@@ -890,6 +890,26 @@ html {
   --tw-placeholder-opacity: 0.2;
 }
 
+.link-primary {
+  --tw-text-opacity: 1;
+  color: hsl(var(--p) / var(--tw-text-opacity));
+}
+
+.link-primary:hover {
+  --tw-text-opacity: 1;
+  color: hsl(var(--pf, var(--p)) / var(--tw-text-opacity));
+}
+
+.link-secondary {
+  --tw-text-opacity: 1;
+  color: hsl(var(--s) / var(--tw-text-opacity));
+}
+
+.link-secondary:hover {
+  --tw-text-opacity: 1;
+  color: hsl(var(--sf, var(--s)) / var(--tw-text-opacity));
+}
+
 .link:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1194,6 +1214,11 @@ html {
 
 .border {
   border-width: 1px;
+}
+
+.bg-base-200 {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--b2, var(--b1)) / var(--tw-bg-opacity));
 }
 
 .bg-blue-100 {
